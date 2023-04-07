@@ -1,6 +1,3 @@
-# Exam #1: "Survey"
-## Student: s280238 TIMUTA ROSTISLAV  
-
 ## React Client Application Routes
 
 - Route `/` => Redirect to /Main
