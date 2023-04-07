@@ -1,0 +1,76 @@
+#mainContainer{
+  margin-top: 70px;
+  /* background-color: #91C5C7; */
+
+}
+
+#customContainer{
+  
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+#instructionsCard{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color:rgb(169, 194, 240);
+}
+
+.button.btn:focus{
+  outline:none !important;
+  outline-offset: none !important;
+  box-shadow: none !important;
+}
+
+.button.btn:active{
+  outline: none;
+  box-shadow: none;
+}
+
+.mandatory::after{
+  content:' *';
+  color:red;
+}
+
+
+
+
+#closedAns{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#minMax{
+  margin-left: 0.5px;
+  font-size: 75%;
+  color:red;
+}
+
+#maxChar{
+  margin-left: 0.5px;
+  font-size: 75%;
+  color: grey;
+}
+
+/* #containerReasponse{
+  margin-left: 120px;
+  margin-right: 60px;
+
+} */
+
+.align-end{
+  text-align: end;
+}
+
+.align-right{
+  justify-content: right;
+}
+
+#questionCard{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
